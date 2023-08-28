@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Lato:ital,wght@0,400;1,300&family=Montserrat:ital,wght@0,100;1,300;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures that padding and border are included in element's width and height */
+  }
+
+ body {
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Set the body height to fill the viewport */
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-vector/illustration-man-woman-guide-screen-smartphone_73637-664.jpg?w=740&t=st=1693220376~exp=1693220976~hmac=950b282fbca9bf958581bc268fc9ba028a4f89104422df6a35f1d04b8ad77e22);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 22%;
+    height: 82%;
+    border: 2px solid hidden;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: first baseline;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 82px;
+}
+
+h1 {
+    width: 100%;
+    height: 10%;
+    margin-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    width: 100%;
+    height: 30%;
+    margin-left: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+}
+
+.ratings {
+    width: 100%;
+    height: 20%;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.button {
+    align-self: center;
+    background-color: #aecfed;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+
+.submit {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+width: 55%;
+height: 35%;
+margin-right: 10px;
+margin-bottom: 10px;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-size: 20px;
+border-radius: 22px;
+background-color: white;
+}
+
+
